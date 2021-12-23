@@ -27,6 +27,28 @@
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
+        <div class="settings">
+          <div class="option">
+            <input type="number" id="length" min="8" max="128" value="16">
+            <label for="length">Set your LENGTH</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" id="uppercase" checked />
+            <label for="uppercase">Add UPPERCASE?</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" id="lowercase" checked />
+            <label for="lowercase">Add LOWERCASE?</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" id="numeric" checked />
+            <label for="numeric">Add NUMBERS?</label>
+          </div>
+          <div class="option">
+            <input type="checkbox" id="special" checked />
+            <label for="special">Add SPECIAL CHARACTERS?</label>
+          </div>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
