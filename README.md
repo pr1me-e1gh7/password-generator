@@ -1,3 +1,1 @@
-This is a homework for UCF Bootcamp
-
-I'm still working to complete this, caught up with the personal life stuff going on but not on time to finish this code by the due date
+This is a homework assignment for UCF's Coding Bootcamp. The webpage is represent your average password generator, equipped with checkboxes to determine the key categories you'd like to include in your password.
